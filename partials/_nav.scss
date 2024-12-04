@@ -30,9 +30,11 @@ nav{
         justify-content: space-between;
         input{
             padding: .3rem;
-            width: 300px;
+            width: 500px;
             background-color: transparent;
             border: none;
+        }:focus{
+            outline: none;
         }
         i{
             color: black;

@@ -55,9 +55,12 @@ nav .center {
 }
 nav .center input {
   padding: 0.3rem;
-  width: 300px;
+  width: 500px;
   background-color: transparent;
   border: none;
+}
+nav .center :focus {
+  outline: none;
 }
 nav .center i {
   color: black;
@@ -165,6 +168,7 @@ nav i {
     padding: 0;
   }
   .hero .sideOne {
+    margin-top: 3rem;
     padding: 0 1rem;
   }
   .hero .sideOne h1 {
