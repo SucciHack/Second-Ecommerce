@@ -202,6 +202,10 @@ nav i {
   width: 60px;
 }
 
+.products {
+  width: 95%;
+  margin: 0 auto;
+}
 .products .head {
   display: flex;
   align-items: center;
@@ -226,8 +230,24 @@ nav i {
 }
 .products .productSection .cardp {
   background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.products .productSection .cardp .img img {
   width: 100%;
-  padding: 2rem;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+.products .productSection .cardp .img :hover {
+  scale: 1.09;
+}
+.products .productSection .cardp .content {
+  padding: 1rem;
 }
 @media (max-width: 480px) {
   .products .head h1 {
