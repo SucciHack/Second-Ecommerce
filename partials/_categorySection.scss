@@ -1,17 +1,24 @@
 .categories{
     margin-bottom: 5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     place-items: center;
-    gap: 2rem;
     margin-top: 2rem;
+    gap: .5rem;
+    
     .card{
         background: white;
-        padding: 2rem ;
-        border-radius: 20px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        img{
-            width: 200px;
+        padding:0 2rem;
+        border-radius: 10px;
+        border: 2px rgba(68, 68, 68, 0.336) solid;
+        .img{
+            display: flex;
+            justify-content: end;
+            img{
+                width: 60px;
+            }
         }
+        font-size: small;
     }
+
 }

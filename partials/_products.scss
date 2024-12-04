@@ -1,0 +1,35 @@
+.products{
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-weight: 400;
+        }
+    }
+    .productSection{
+        margin-bottom: 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        place-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        padding:0;
+    }
+
+    @media (max-width: 480px) {
+        .head{
+            h1{
+                font-size: 1.5rem;
+            }
+            p{
+                font-weight: 400;
+            } 
+        }
+    }
+}

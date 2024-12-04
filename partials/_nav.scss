@@ -2,9 +2,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(54, 134, 54);
-    padding: 1rem;
+    background-color: #214C4F;
+    padding: .5rem;
     color: white;
+    border-radius: 20px;
+    margin-top: 10px;
 
     .left{
         display: flex;
@@ -24,9 +26,11 @@ nav{
         background-color: white;
         padding: 0 1rem;
         border-radius: 3rem;
+        display: flex;
+        justify-content: space-between;
         input{
-            padding: 1rem;
-            width: 600px;
+            padding: .3rem;
+            width: 300px;
             background-color: transparent;
             border: none;
         }
