@@ -58,9 +58,8 @@ nav{
             display: none;
         }
         .center{
-            input{
-                width: 550px;
-            }
+            width: 80%;
+            display: flex;
         }
         .right{
             #user{
@@ -81,9 +80,8 @@ nav{
             display: none;
     }
     .center{
-        input{
-            max-width: 200px;
-        }
+        width: 80%;
+        display: flex;
     }
         .right{
         #user{

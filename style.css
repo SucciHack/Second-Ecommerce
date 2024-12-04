@@ -75,8 +75,9 @@ nav i {
   nav .left {
     display: none;
   }
-  nav .center input {
-    width: 550px;
+  nav .center {
+    width: 80%;
+    display: flex;
   }
   nav .right #user {
     display: none;
@@ -92,8 +93,9 @@ nav i {
   nav .left {
     display: none;
   }
-  nav .center input {
-    max-width: 200px;
+  nav .center {
+    width: 80%;
+    display: flex;
   }
   nav .right #user {
     display: none;
