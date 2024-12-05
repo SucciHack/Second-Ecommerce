@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #F3F6F5;
+  background: #d3d3d3;
   width: 98%;
   margin: 0 auto;
 }
@@ -295,6 +295,10 @@ h2 {
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+.featuredStore .cardp img:hover {
+  scale: 1.09;
 }
 .featuredStore .cardp .content {
   padding: 1rem;

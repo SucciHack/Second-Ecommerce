@@ -20,6 +20,9 @@
                 height: 200px;
                 display: block;
                 object-fit: cover;
+                transition:.3s ease-in-out;
+            }img:hover{
+                scale: 1.09;
             }
             .content{
                 padding: 1rem;
