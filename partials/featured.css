@@ -1,0 +1,7 @@
+.featuredStore {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px));
+}
+.featuredStore .color1 {
+  background-color: red;
+}/*# sourceMappingURL=featured.css.map */
