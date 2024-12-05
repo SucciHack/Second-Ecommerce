@@ -55,7 +55,7 @@ nav .center {
 }
 nav .center input {
   padding: 0.3rem;
-  width: 400px;
+  width: 350px;
   background-color: transparent;
   border: none;
 }
@@ -271,13 +271,17 @@ nav i {
 
 h2 {
   margin-bottom: 1rem;
+  padding-left: 2rem;
 }
 
 .featuredStore {
-  margin-bottom: 15rem;
+  margin-bottom: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 .featuredStore .cardp {
   background-color: white;
@@ -306,7 +310,7 @@ h2 {
   height: 40px;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 2%;
   color: white;
   font-size: 1rem;
@@ -330,5 +334,63 @@ h2 {
     font-size: 0.8rem;
     top: 32%;
     left: 2%;
+  }
+}
+
+.productItem {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+}
+.productItem .productView {
+  padding: 2rem;
+  width: 50%;
+  overflow: hidden;
+}
+.productItem .productView .imgOne {
+  margin-bottom: 1rem;
+  background-color: rgb(204, 203, 203);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.productItem .productView img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+.productItem .productView .imgflex {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.productItem .productView .imgflex .img {
+  flex-basis: 25%;
+  background-color: rgb(204, 203, 203);
+}
+.productItem .two {
+  padding: 3rem;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .productItem {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .productItem .productView {
+    width: 100%;
+  }
+  .productItem .two {
+    width: 100%;
+  }
+  .productItem .two .wishlist {
+    margin-top: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
