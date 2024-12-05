@@ -393,4 +393,11 @@ h2 {
   .productItem .two .wishlist {
     margin-top: 2rem;
   }
+  .productItem .two .wishlist .flexbtn {
+    display: flex;
+    gap: 1rem;
+  }
+  .productItem .two .wishlist .flexbtn button {
+    font-size: small;
+  }
 }/*# sourceMappingURL=style.css.map */

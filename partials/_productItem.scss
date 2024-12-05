@@ -50,6 +50,13 @@
             width: 100%;
             .wishlist{
                 margin-top: 2rem;
+                .flexbtn{
+                    display: flex;
+                    gap: 1rem;
+                    button{
+                        font-size: small;
+                    }
+                }
             }
         }
     }
