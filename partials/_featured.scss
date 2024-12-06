@@ -7,11 +7,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 1rem;
-        width: 95%;
         margin: auto;
         margin-bottom: 1rem;
         .cardp{
-            background-color: white;
+            background-color: whitesmoke;
             border-radius: 20px;
             overflow: hidden;
             position: relative;
